@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.carrotquest:android-sdk:1.0.51-commonRelease@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

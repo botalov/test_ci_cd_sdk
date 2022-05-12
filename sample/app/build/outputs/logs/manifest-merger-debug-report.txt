@@ -1,0 +1,875 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:1-46:12
+MERGED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:2:1-104:12
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/94a9e0ae80103bfb544aa57fe77b7cb8/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.material:material:1.6.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/347fae2179b4abe012c516e154491cca/material-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e2bad022eac8cff4d910610467b001cb/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/092b9eaa120c4db80fce029b4a48f3f1/jetified-PhotoView-2.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5e2c52bdd10efde24657d2c3eb7bf381/jetified-rxpermissions-0.12/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6e9453ca2f09d68d2153f7f03458c896/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5ae4190919481cd684f136be0215aada/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b3bfe8565be9e9cef9b83063da338856/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/351fef72cd2cbe5735394ab1ddb52718/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/39ab9d0197d0ba3e733b642c6cc46cfa/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/eb8fccc5da36b25445127367c9e915e3/jetified-flexbox-3.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c48e9f045fdc38c0a9f3b7c2201adf9b/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/681a570dca2873d4f1f530dcda7e2cd6/jetified-firebase-core-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d013532cf29e57fd0791a7d4a9538ce1/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/75bf282ba056d1d9e909907c3b6530a0/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a7ac0cd6e460ad3ffa1ebbfd4d1aea5e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ac9424871c02e70c037c238151539cd6/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40ea5b720e6d4040eb404bede9ce82ed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/136de8c6b158a87ee49fccbef9e00072/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5d946ea2f708922878d52e95dcd20685/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c42f32c4351222cfc9ee8a548b57737c/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ddaabde28730e1343d45090fae47c158/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e6c31d0f90a2440f79a174c39cd814c5/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/3044337a3f24746fe570fb88956a0694/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b5c96a6ec07aa6692751a298e559b1e8/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61ea78c05c6c645bc25371ff0218a086/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ff9bd6ef855f47ee21f1e9d9fd6c5872/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ec97bbacc3cc5fef6e26e6b86212114f/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/03088a31916eee43014e2b6c4efc0c1f/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/651fae681d612f946ba633b4054a3431/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/288f85b2e3a23fb0a20247fa182d2a5b/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/f20a1d198a32f4841147014e9475cbbb/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5e27641f5efbb87ec7cf970102848731/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8e38c7f27379c849e2be3b6cfc3e9ca/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0c73f77a0fcc398fc7a25329f90a2a2f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ae249e60ba5ed8f411c39ac541002f51/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e35f2572b62e15e58a7b87256ef5d90d/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b5b7aada553f440c076f2fcb80cc2846/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a431b63830e255b80e0dcda496eb99b4/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/774685d525d2c608661e3523bbae3285/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/f93729eb687368f454d97902b3a18e45/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/481e573a8df0d33a309c4c4f92b06232/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/dbb366343a6724b631351973f64371bc/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0442ff76a09b741cd56acc7b47da8351/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/2487ef04f538af35e2a37a0243a3c737/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/cbcd276e3e562f7892c05ae2526674b0/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-android:2.35.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/358af143c76bf9b9c6712bd2548a3e17/jetified-dagger-android-2.35.1/AndroidManifest.xml:17:1-22:12
+MERGED from [io.sentry:sentry-android:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1128d8302527d4a92c9e60a21a5409bb/jetified-sentry-android-4.3.0/AndroidManifest.xml:2:1-13:12
+MERGED from [io.sentry:sentry-android-ndk:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/9fa2b8289439a8972bcb5ec996061efc/jetified-sentry-android-ndk-4.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.sentry:sentry-android-core:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0f5d3c4d68905250e1291f26bc3478c7/jetified-sentry-android-core-4.3.0/AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e265bb5f7f6a0c33076568180d3cd556/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/56e4b193225c308e0ae7c4840081b03b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/cb237749432f86a7ea0e8da344b826fc/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/05cd9f004e0314c5ff82b2c4e553206c/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a27939ae7cf78237c4e1f061c8bee378/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/84ce71463c0c3cc85a52e2ed3c9684a7/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a74c86a5fc1677dd4963c1f7afbdbcb3/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-rxjava2:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/37abc494b24d2cc9cdb5215c10d01dc2/room-rxjava2-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/279c816873f76848c5437adfc1a6c6cd/room-runtime-2.4.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ca9e06ffe5c8fd22a3dc7d9ae92cce9e/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6accf17d148fb26b9c288c1756008b5d/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/06dffba93119699bb8be130217bc13ee/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6c76ca61e429ff1f07fdb080948be5d3/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/937788e4771e9243c943aef524b52003/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d50852f951d4af2e924fd823f4c32efe/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a34b0d7df866944ef29fd9280102d81/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/616dab86b51f48ecac7309e822f5dd60/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/eff941c696c91d1a4a1b999e17c8d9f5/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fd164f9ad9869573d6f08eaed66b4950/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/7d37cd5abad8cc6f72de7d2854e62922/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.Redman1037:TSnackBar:V2.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/32f668504f2ad0d1b0e77e23615d40f7/jetified-TSnackBar-V2.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/febd80a45515165cc41ed87337593b29/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.vanniktech:rxpermission:0.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61a9668b787bef83e8761bacb229835e/jetified-rxpermission-0.4.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.35.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/98333d14a304fa42bf3cd961a9386035/jetified-dagger-lint-aar-2.35.1/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:12:5-67
+MERGED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:12:5-67
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:11:5-67
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5d946ea2f708922878d52e95dcd20685/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5d946ea2f708922878d52e95dcd20685/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [io.sentry:sentry-android-core:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0f5d3c4d68905250e1291f26bc3478c7/jetified-sentry-android-core-4.3.0/AndroidManifest.xml:11:5-67
+MERGED from [io.sentry:sentry-android-core:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0f5d3c4d68905250e1291f26bc3478c7/jetified-sentry-android-core-4.3.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:7:5-44:19
+MERGED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:19:5-102:19
+MERGED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:19:5-102:19
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:17:5-18:19
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:17:5-18:19
+MERGED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:16:5-22:19
+MERGED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.android.material:material:1.6.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/347fae2179b4abe012c516e154491cca/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/347fae2179b4abe012c516e154491cca/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e2bad022eac8cff4d910610467b001cb/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e2bad022eac8cff4d910610467b001cb/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5e2c52bdd10efde24657d2c3eb7bf381/jetified-rxpermissions-0.12/AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5e2c52bdd10efde24657d2c3eb7bf381/jetified-rxpermissions-0.12/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/39ab9d0197d0ba3e733b642c6cc46cfa/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/39ab9d0197d0ba3e733b642c6cc46cfa/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c48e9f045fdc38c0a9f3b7c2201adf9b/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c48e9f045fdc38c0a9f3b7c2201adf9b/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/681a570dca2873d4f1f530dcda7e2cd6/jetified-firebase-core-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/681a570dca2873d4f1f530dcda7e2cd6/jetified-firebase-core-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d013532cf29e57fd0791a7d4a9538ce1/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d013532cf29e57fd0791a7d4a9538ce1/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/75bf282ba056d1d9e909907c3b6530a0/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/75bf282ba056d1d9e909907c3b6530a0/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a7ac0cd6e460ad3ffa1ebbfd4d1aea5e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a7ac0cd6e460ad3ffa1ebbfd4d1aea5e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ac9424871c02e70c037c238151539cd6/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ac9424871c02e70c037c238151539cd6/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40ea5b720e6d4040eb404bede9ce82ed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40ea5b720e6d4040eb404bede9ce82ed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/136de8c6b158a87ee49fccbef9e00072/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/136de8c6b158a87ee49fccbef9e00072/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c42f32c4351222cfc9ee8a548b57737c/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c42f32c4351222cfc9ee8a548b57737c/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e6c31d0f90a2440f79a174c39cd814c5/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e6c31d0f90a2440f79a174c39cd814c5/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/3044337a3f24746fe570fb88956a0694/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/3044337a3f24746fe570fb88956a0694/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a431b63830e255b80e0dcda496eb99b4/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a431b63830e255b80e0dcda496eb99b4/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/2487ef04f538af35e2a37a0243a3c737/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/2487ef04f538af35e2a37a0243a3c737/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [io.sentry:sentry-android-core:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0f5d3c4d68905250e1291f26bc3478c7/jetified-sentry-android-core-4.3.0/AndroidManifest.xml:13:5-20:19
+MERGED from [io.sentry:sentry-android-core:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0f5d3c4d68905250e1291f26bc3478c7/jetified-sentry-android-core-4.3.0/AndroidManifest.xml:13:5-20:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a27939ae7cf78237c4e1f061c8bee378/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a27939ae7cf78237c4e1f061c8bee378/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/84ce71463c0c3cc85a52e2ed3c9684a7/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/84ce71463c0c3cc85a52e2ed3c9684a7/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/279c816873f76848c5437adfc1a6c6cd/room-runtime-2.4.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/279c816873f76848c5437adfc1a6c6cd/room-runtime-2.4.0/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.vanniktech:rxpermission:0.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61a9668b787bef83e8761bacb229835e/jetified-rxpermission-0.4.0/AndroidManifest.xml:9:5-14:19
+MERGED from [com.vanniktech:rxpermission:0.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61a9668b787bef83e8761bacb229835e/jetified-rxpermission-0.4.0/AndroidManifest.xml:9:5-14:19
+	android:requestLegacyExternalStorage
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:20:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a431b63830e255b80e0dcda496eb99b4/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:22:9-28
+	android:icon
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:13:9-40
+	android:usesCleartextTraffic
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:21:9-44
+activity#io.carrotquest.sample.start.view.StartActivity
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:exported
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:16:13-36
+	android:theme
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:15:13-69
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:14:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:20:27-74
+activity#io.carrotquest.sample.main.view.MainActivity
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:23:9-25:15
+	android:theme
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:24:13-69
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:23:19-57
+activity#io.carrotquest.sample.input_data.view.InputDataActivity
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:26:9-29:15
+	android:windowSoftInputMode
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:27:13-55
+	android:theme
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:28:13-69
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:26:19-68
+activity#io.carrotquest.sample.product.view.ProductActivity
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:30:9-32:15
+	android:theme
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:31:13-69
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:30:19-63
+activity#io.carrotquest.sample.cart.view.CartActivity
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:33:9-35:15
+	android:theme
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:34:13-69
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:33:19-57
+service#io.carrotquest.sample.service.MyFirebaseMessagingService
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:38:9-43:19
+	android:exported
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:38:18-68
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:40:13-42:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:41:17-78
+	android:name
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml:41:25-75
+uses-sdk
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+MERGED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:8:5-10:41
+MERGED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:8:5-10:41
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:7:5-9:41
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/94a9e0ae80103bfb544aa57fe77b7cb8/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/94a9e0ae80103bfb544aa57fe77b7cb8/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:8:5-10:41
+MERGED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/347fae2179b4abe012c516e154491cca/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/347fae2179b4abe012c516e154491cca/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e2bad022eac8cff4d910610467b001cb/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e2bad022eac8cff4d910610467b001cb/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/092b9eaa120c4db80fce029b4a48f3f1/jetified-PhotoView-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/092b9eaa120c4db80fce029b4a48f3f1/jetified-PhotoView-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5e2c52bdd10efde24657d2c3eb7bf381/jetified-rxpermissions-0.12/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5e2c52bdd10efde24657d2c3eb7bf381/jetified-rxpermissions-0.12/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6e9453ca2f09d68d2153f7f03458c896/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6e9453ca2f09d68d2153f7f03458c896/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5ae4190919481cd684f136be0215aada/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5ae4190919481cd684f136be0215aada/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b3bfe8565be9e9cef9b83063da338856/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b3bfe8565be9e9cef9b83063da338856/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/351fef72cd2cbe5735394ab1ddb52718/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/351fef72cd2cbe5735394ab1ddb52718/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/39ab9d0197d0ba3e733b642c6cc46cfa/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/39ab9d0197d0ba3e733b642c6cc46cfa/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/eb8fccc5da36b25445127367c9e915e3/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/eb8fccc5da36b25445127367c9e915e3/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c48e9f045fdc38c0a9f3b7c2201adf9b/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c48e9f045fdc38c0a9f3b7c2201adf9b/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/681a570dca2873d4f1f530dcda7e2cd6/jetified-firebase-core-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/681a570dca2873d4f1f530dcda7e2cd6/jetified-firebase-core-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d013532cf29e57fd0791a7d4a9538ce1/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d013532cf29e57fd0791a7d4a9538ce1/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/75bf282ba056d1d9e909907c3b6530a0/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/75bf282ba056d1d9e909907c3b6530a0/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a7ac0cd6e460ad3ffa1ebbfd4d1aea5e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a7ac0cd6e460ad3ffa1ebbfd4d1aea5e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ac9424871c02e70c037c238151539cd6/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ac9424871c02e70c037c238151539cd6/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40ea5b720e6d4040eb404bede9ce82ed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40ea5b720e6d4040eb404bede9ce82ed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/136de8c6b158a87ee49fccbef9e00072/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/136de8c6b158a87ee49fccbef9e00072/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5d946ea2f708922878d52e95dcd20685/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5d946ea2f708922878d52e95dcd20685/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c42f32c4351222cfc9ee8a548b57737c/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/c42f32c4351222cfc9ee8a548b57737c/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ddaabde28730e1343d45090fae47c158/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ddaabde28730e1343d45090fae47c158/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e6c31d0f90a2440f79a174c39cd814c5/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e6c31d0f90a2440f79a174c39cd814c5/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/3044337a3f24746fe570fb88956a0694/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/3044337a3f24746fe570fb88956a0694/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b5c96a6ec07aa6692751a298e559b1e8/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b5c96a6ec07aa6692751a298e559b1e8/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61ea78c05c6c645bc25371ff0218a086/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61ea78c05c6c645bc25371ff0218a086/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ff9bd6ef855f47ee21f1e9d9fd6c5872/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ff9bd6ef855f47ee21f1e9d9fd6c5872/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ec97bbacc3cc5fef6e26e6b86212114f/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ec97bbacc3cc5fef6e26e6b86212114f/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/03088a31916eee43014e2b6c4efc0c1f/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/03088a31916eee43014e2b6c4efc0c1f/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/651fae681d612f946ba633b4054a3431/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/651fae681d612f946ba633b4054a3431/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/288f85b2e3a23fb0a20247fa182d2a5b/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/288f85b2e3a23fb0a20247fa182d2a5b/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/f20a1d198a32f4841147014e9475cbbb/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/f20a1d198a32f4841147014e9475cbbb/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5e27641f5efbb87ec7cf970102848731/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5e27641f5efbb87ec7cf970102848731/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8e38c7f27379c849e2be3b6cfc3e9ca/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8e38c7f27379c849e2be3b6cfc3e9ca/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0c73f77a0fcc398fc7a25329f90a2a2f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0c73f77a0fcc398fc7a25329f90a2a2f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ae249e60ba5ed8f411c39ac541002f51/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ae249e60ba5ed8f411c39ac541002f51/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e35f2572b62e15e58a7b87256ef5d90d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e35f2572b62e15e58a7b87256ef5d90d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b5b7aada553f440c076f2fcb80cc2846/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b5b7aada553f440c076f2fcb80cc2846/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a431b63830e255b80e0dcda496eb99b4/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a431b63830e255b80e0dcda496eb99b4/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/774685d525d2c608661e3523bbae3285/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/774685d525d2c608661e3523bbae3285/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/f93729eb687368f454d97902b3a18e45/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/f93729eb687368f454d97902b3a18e45/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/481e573a8df0d33a309c4c4f92b06232/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/481e573a8df0d33a309c4c4f92b06232/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/dbb366343a6724b631351973f64371bc/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/dbb366343a6724b631351973f64371bc/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0442ff76a09b741cd56acc7b47da8351/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0442ff76a09b741cd56acc7b47da8351/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/2487ef04f538af35e2a37a0243a3c737/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/2487ef04f538af35e2a37a0243a3c737/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/cbcd276e3e562f7892c05ae2526674b0/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/cbcd276e3e562f7892c05ae2526674b0/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.35.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/358af143c76bf9b9c6712bd2548a3e17/jetified-dagger-android-2.35.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.35.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/358af143c76bf9b9c6712bd2548a3e17/jetified-dagger-android-2.35.1/AndroidManifest.xml:20:5-44
+MERGED from [io.sentry:sentry-android:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1128d8302527d4a92c9e60a21a5409bb/jetified-sentry-android-4.3.0/AndroidManifest.xml:8:5-11:57
+MERGED from [io.sentry:sentry-android:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1128d8302527d4a92c9e60a21a5409bb/jetified-sentry-android-4.3.0/AndroidManifest.xml:8:5-11:57
+MERGED from [io.sentry:sentry-android-ndk:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/9fa2b8289439a8972bcb5ec996061efc/jetified-sentry-android-ndk-4.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.sentry:sentry-android-ndk:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/9fa2b8289439a8972bcb5ec996061efc/jetified-sentry-android-ndk-4.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.sentry:sentry-android-core:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0f5d3c4d68905250e1291f26bc3478c7/jetified-sentry-android-core-4.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.sentry:sentry-android-core:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0f5d3c4d68905250e1291f26bc3478c7/jetified-sentry-android-core-4.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e265bb5f7f6a0c33076568180d3cd556/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e265bb5f7f6a0c33076568180d3cd556/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/56e4b193225c308e0ae7c4840081b03b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/56e4b193225c308e0ae7c4840081b03b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/cb237749432f86a7ea0e8da344b826fc/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/cb237749432f86a7ea0e8da344b826fc/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/05cd9f004e0314c5ff82b2c4e553206c/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/05cd9f004e0314c5ff82b2c4e553206c/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a27939ae7cf78237c4e1f061c8bee378/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a27939ae7cf78237c4e1f061c8bee378/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/84ce71463c0c3cc85a52e2ed3c9684a7/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/84ce71463c0c3cc85a52e2ed3c9684a7/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a74c86a5fc1677dd4963c1f7afbdbcb3/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a74c86a5fc1677dd4963c1f7afbdbcb3/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/37abc494b24d2cc9cdb5215c10d01dc2/room-rxjava2-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/37abc494b24d2cc9cdb5215c10d01dc2/room-rxjava2-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/279c816873f76848c5437adfc1a6c6cd/room-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/279c816873f76848c5437adfc1a6c6cd/room-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ca9e06ffe5c8fd22a3dc7d9ae92cce9e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/ca9e06ffe5c8fd22a3dc7d9ae92cce9e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6accf17d148fb26b9c288c1756008b5d/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6accf17d148fb26b9c288c1756008b5d/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/06dffba93119699bb8be130217bc13ee/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/06dffba93119699bb8be130217bc13ee/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6c76ca61e429ff1f07fdb080948be5d3/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6c76ca61e429ff1f07fdb080948be5d3/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/937788e4771e9243c943aef524b52003/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/937788e4771e9243c943aef524b52003/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d50852f951d4af2e924fd823f4c32efe/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d50852f951d4af2e924fd823f4c32efe/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a34b0d7df866944ef29fd9280102d81/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a34b0d7df866944ef29fd9280102d81/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/616dab86b51f48ecac7309e822f5dd60/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/616dab86b51f48ecac7309e822f5dd60/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/eff941c696c91d1a4a1b999e17c8d9f5/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/eff941c696c91d1a4a1b999e17c8d9f5/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fd164f9ad9869573d6f08eaed66b4950/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fd164f9ad9869573d6f08eaed66b4950/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/7d37cd5abad8cc6f72de7d2854e62922/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/7d37cd5abad8cc6f72de7d2854e62922/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.Redman1037:TSnackBar:V2.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/32f668504f2ad0d1b0e77e23615d40f7/jetified-TSnackBar-V2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Redman1037:TSnackBar:V2.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/32f668504f2ad0d1b0e77e23615d40f7/jetified-TSnackBar-V2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/febd80a45515165cc41ed87337593b29/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/febd80a45515165cc41ed87337593b29/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.vanniktech:rxpermission:0.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61a9668b787bef83e8761bacb229835e/jetified-rxpermission-0.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.vanniktech:rxpermission:0.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61a9668b787bef83e8761bacb229835e/jetified-rxpermission-0.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.35.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/98333d14a304fa42bf3cd961a9386035/jetified-dagger-lint-aar-2.35.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.35.1] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/98333d14a304fa42bf3cd961a9386035/jetified-dagger-lint-aar-2.35.1/AndroidManifest.xml:18:3-42
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [io.sentry:sentry-android:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1128d8302527d4a92c9e60a21a5409bb/jetified-sentry-android-4.3.0/AndroidManifest.xml:11:9-54
+	android:targetSdkVersion
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitabotalov/StudioProjects/sample/app/src/main/AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:13:5-82
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:13:22-79
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:14:5-80
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:15:5-80
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:15:5-80
+MERGED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:13:5-80
+MERGED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:15:5-81
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:14:5-81
+MERGED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:14:5-81
+MERGED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:14:5-81
+MERGED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:16:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:17:22-63
+meta-data#io.sentry.auto-init
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:28:9-30:37
+	android:value
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:30:13-34
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:29:13-47
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:31:9-33:63
+	android:resource
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:33:13-60
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:32:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:34:9-36:55
+	android:resource
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:36:13-52
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:35:13-84
+receiver#io.carrotquest_sdk.android.core.utm.InstallReferrerReceiver
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:38:9-45:20
+	android:enabled
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:40:13-35
+	android:exported
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:39:13-87
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:42:13-44:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:43:17-79
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:43:25-76
+activity#io.carrotquest_sdk.android.presentation.mvp.dialog.view.DialogActivity
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:47:9-51:70
+	android:windowSoftInputMode
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:51:13-67
+	android:configChanges
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:49:13-74
+	android:theme
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:50:13-60
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:48:13-98
+activity#io.carrotquest_sdk.android.presentation.mvp.list_dialogs.view.ListActivity
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:52:9-55:63
+	android:noHistory
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:54:13-37
+	android:theme
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:55:13-60
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:53:13-102
+activity#io.carrotquest_sdk.android.presentation.mvp.bottom_sheets.NormalMessageBottomSheetSDKActivity
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:56:9-59:50
+	android:parentActivityName
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:58:13-112
+	android:theme
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:59:13-47
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:57:13-121
+activity#io.carrotquest_sdk.android.presentation.mvp.bottom_sheets.ErrorSendingMessageBottomSheetSDKActivity
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:60:9-63:50
+	android:parentActivityName
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:62:13-112
+	android:theme
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:63:13-47
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:61:13-127
+activity#io.carrotquest_sdk.android.presentation.mvp.calendly.view.CalendlyWidgetActivity
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:64:9-67:50
+	android:parentActivityName
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:66:13-112
+	android:theme
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:67:13-47
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:65:13-108
+activity#io.carrotquest_sdk.android.presentation.mvp.popup.view.PopUpActivity
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:68:9-70:49
+	android:theme
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:70:13-46
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:69:13-96
+provider#io.carrotquest_sdk.android.core.util.files.open_files.GenericFileProvider
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:72:9-80:20
+	android:grantUriPermissions
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:76:13-47
+	android:authorities
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:74:13-60
+	android:exported
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:75:13-37
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:73:13-101
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:77:13-79:58
+	android:resource
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:79:17-55
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:78:17-67
+provider#io.sentry.android.core.SentryInitProvider
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:81:9-84:35
+REJECTED from [io.sentry:sentry-android-core:4.3.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/0f5d3c4d68905250e1291f26bc3478c7/jetified-sentry-android-core-4.3.0/AndroidManifest.xml:16:9-19:40
+	tools:node
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:84:13-32
+	android:authorities
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:83:13-70
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:82:13-69
+service#io.carrotquest_sdk.android.presentation.mvp.notifications.SdkFirebaseMessagingService
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:86:9-92:19
+	android:exported
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:87:13-113
+receiver#io.carrotquest_sdk.android.presentation.mvp.notifications.PushTapReceiver
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:94:9-101:20
+	android:enabled
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:96:13-35
+	android:exported
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:97:13-36
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:95:13-101
+intent-filter#action:name:carrotquest.sdk.tap.push
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:98:13-100:29
+action#carrotquest.sdk.tap.push
+ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:99:17-67
+	android:name
+		ADDED from [io.carrotquest:android-sdk:1.0.51-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/d2a8909b2eaccc94046085fa0c935244/jetified-android-sdk-1.0.51-commonRelease/AndroidManifest.xml:99:25-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5d946ea2f708922878d52e95dcd20685/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5d946ea2f708922878d52e95dcd20685/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [io.carrotquest:cqandroid-lib:1.0.34-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/04b73aee9aeb4f5806ed765b531c17b6/jetified-cqandroid-lib-1.0.34-commonRelease/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CAMERA
+ADDED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:12:22-62
+activity#io.carrotquest.imagepicker.control.bottom_sheet.picker_bottom_sheet.view.PickerBottomSheet
+ADDED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:19:9-21:50
+	android:theme
+		ADDED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:21:13-47
+	android:name
+		ADDED from [io.carrotquest:image-picker:1.0.9-commonRelease] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/AndroidManifest.xml:20:13-118
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/1a4ba68091989cd61b4dc55f582fbc35/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5d946ea2f708922878d52e95dcd20685/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/5d946ea2f708922878d52e95dcd20685/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:22-65
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:50:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/b88d3495153896154e3348dcf9203a14/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/fa90a5b6f37a6ed771aecd0a702f3afd/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/bfa0717fd63277140abf04e64601a35c/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/17924b1d306f3bad9155851f36e2c4ac/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/40bbf436a7f643549fdd4842744d1f65/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/6f13e0d1f7234de67b77b085cddb3648/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a8a8c1eec721232d266671945185db20/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/136de8c6b158a87ee49fccbef9e00072/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/136de8c6b158a87ee49fccbef9e00072/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/3044337a3f24746fe570fb88956a0694/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/3044337a3f24746fe570fb88956a0694/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/3044337a3f24746fe570fb88956a0694/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/84ce71463c0c3cc85a52e2ed3c9684a7/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/84ce71463c0c3cc85a52e2ed3c9684a7/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/a1db6a0ca78a28b66c64115dbc645d09/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/33cb0bcbb6de7bcdeaa8d59150e0e237/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/279c816873f76848c5437adfc1a6c6cd/room-runtime-2.4.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/279c816873f76848c5437adfc1a6c6cd/room-runtime-2.4.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/279c816873f76848c5437adfc1a6c6cd/room-runtime-2.4.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/279c816873f76848c5437adfc1a6c6cd/room-runtime-2.4.0/AndroidManifest.xml:26:13-74
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/979bb91011df34ea2cbcff42e2e0a32d/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/e82a33c3df98f38f93f6085d9f513d60/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+activity#com.vanniktech.rxpermission.ShadowActivity
+ADDED from [com.vanniktech:rxpermission:0.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61a9668b787bef83e8761bacb229835e/jetified-rxpermission-0.4.0/AndroidManifest.xml:10:9-13:75
+	android:launchMode
+		ADDED from [com.vanniktech:rxpermission:0.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61a9668b787bef83e8761bacb229835e/jetified-rxpermission-0.4.0/AndroidManifest.xml:12:13-43
+	android:theme
+		ADDED from [com.vanniktech:rxpermission:0.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61a9668b787bef83e8761bacb229835e/jetified-rxpermission-0.4.0/AndroidManifest.xml:13:13-72
+	android:name
+		ADDED from [com.vanniktech:rxpermission:0.4.0] /Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/61a9668b787bef83e8761bacb229835e/jetified-rxpermission-0.4.0/AndroidManifest.xml:11:13-70

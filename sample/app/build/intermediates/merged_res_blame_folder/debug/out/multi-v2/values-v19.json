@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/nikitabotalov/StudioProjects/sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/Users/nikitabotalov/.gradle/caches/transforms-2/files-2.1/74aacfc6cddbb98b655e090a9827be62/jetified-image-picker-1.0.9-commonRelease/res/values-v19/values-v19.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "419"
+                    }
+                }
+            ]
+        }
+    ]
+}
