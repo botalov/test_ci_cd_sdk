@@ -1,0 +1,25 @@
+
+name: CI
+on:
+  push:
+    branches: [ test_brunch ]
+
+jobs:
+  change_gradle_file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run a edit gradle file
+        run: |
+          oldstr=$(grep io.carrotquest:android-sdk sample/app/build.gradle)
+          echo "$oldstr"
+          tempnewstr=$(grep latest io/carrotquest/android-sdk/maven-metadata.xml)
+          echo "$tempnewstr"
+          tempsbstr=${tempnewstr#*>}
+          latestversionstr=${tempsbstr%-*}
+          echo "$latestversionstr"
+          newstr=$()
+          echo "$newstr"
+          sed -i '' "s/$oldstr/    implementation 'io.carrotquest:android-sdk:$latestversionstr-commonRelease'/g" sample/app/build.gradle
