@@ -22,4 +22,4 @@ jobs:
           echo "$latestversionstr"
           newstr=$()
           echo "$newstr"
-          sed -i '' "s/$oldstr/    implementation 'io.carrotquest:android-sdk:$latestversionstr-commonRelease'/g" sample/app/build.gradle
+          sed -i "s/$oldstr/    implementation 'io.carrotquest:android-sdk:$latestversionstr-commonRelease'/g" sample/app/build.gradle
