@@ -11,7 +11,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with: 
-          token: ${{ secrets.PAT_FOR_SAMPLE_SDK }}
+          token: ${{ secrets.PET_FOR_SAMPLE_SDK }}
 
       - name: Run a edit gradle file
         run: |
