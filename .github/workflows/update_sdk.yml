@@ -23,3 +23,7 @@ jobs:
           newstr=$()
           echo "$newstr"
           sed -i "s/$oldstr/    implementation 'io.carrotquest:android-sdk:$latestversionstr-commonRelease'/g" sample/app/build.gradle
+        
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update sample app
